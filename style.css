@@ -1,0 +1,186 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== GLOBAL ===== */
+body {
+    background: #f5f7fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    background: #eaeaea;
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 60px 50px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* ===== PROJECTS GRID ===== */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 9px;
+}
+
+/* ===== PROJECT CARD ===== */
+.project-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+.project-content {
+    padding: 20px;
+}
+
+.project-content h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.project-content p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+}
+
+}
+
+
+/* ===== CV ===== */
+.cv-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: white;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cv-left {
+    background: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+.cv-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.cv-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cv-job {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cv-section {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cv-section h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+}
+
+.cv-section ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+.cv-section ul li {
+    margin-bottom: 6px;
+}
+
+.cv-right {
+    padding: 30px;
+}
+
+.cv-right h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.cv-block {
+    margin-bottom: 25px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #eaeaea;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size:
